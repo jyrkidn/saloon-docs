@@ -274,7 +274,7 @@ It's recommended that you place this in your `Pest.php` file or in your `setUp()
 {% tab title="Pest.php (PEST)" %}
 <pre class="language-php"><code class="lang-php">&#x3C;?php
 
-<strong>use Saloon\Config;
+<strong>use Saloon\Helpers\Config;
 </strong>
 beforeEach(function () {
     Config::preventStrayRequests();
@@ -285,7 +285,7 @@ beforeEach(function () {
 {% tab title="TestCase.php (PHPUnit)" %}
 <pre class="language-php"><code class="lang-php">&#x3C;?php
 
-<strong>use Saloon\Config;
+<strong>use Saloon\Helpers\Config;
 </strong>
 class TestCase {
 
